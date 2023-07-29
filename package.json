@@ -5,8 +5,8 @@
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
-    "@babel/core": "^7.22.8",
-    "@babel/preset-env": "^7.22.7",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
     "@reduxjs/toolkit": "^1.9.5",
     "babel-loader": "^9.1.3",

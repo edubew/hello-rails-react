@@ -1,6 +1,6 @@
 # 📖 [Greetings App] <a name="about-project"></a>
 
-> This a simple webapp which is help users to get random greeting everytime they visit the page. This app is built using React, Rails, and Webpack
+> This is a simple web app that helps users to get random greetings every time they visit the page. This app is built using React, Rails, and Webpack
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,25 +44,16 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Version <a name="live-demo"></a>
-
-- [Coming Soon](#)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-If you dont have Ruby installed on your computer, you can download it from [here](https://www.ruby-lang.org/en/downloads/).
+If you don't have Ruby installed on your computer, you can download it from [here](https://www.ruby-lang.org/en/downloads/).
 
-If you dont have Rails installed on your computer, you can download it from [here](https://rubyonrails.org/).
+If you don't have Rails installed on your computer, you can download it from [here](https://rubyonrails.org/).
 
-If you dont have PostgreSQL installed on your computer, you can download it from [here](https://www.postgresql.org/download/).
+If you don't have PostgreSQL installed on your computer, you can download it from [here](https://www.postgresql.org/download/).
 
 If you have installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
@@ -81,7 +72,7 @@ bundle install
 npm install
 ```
 
-3. Build project with:
+3. Build the project with:
 
 ```
 npm run build
@@ -91,7 +82,7 @@ Edit the default section of the file to look like this:
 
 ```
   default: &default
-  adapter: postgresql
+  adapter: Postgresql
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
@@ -101,7 +92,7 @@ Edit the default section of the file to look like this:
 
 ```
 
-3. Create the database and run the migrations  with:
+5. Create the database and run the migrations  with:
 
 ```
 rails db:create
@@ -109,19 +100,12 @@ rails db:migrate
 rails db:seed
 ```
 
-4. Start the development server
+6. Start the development server
 
 ```
 rails server
 ```
 
-5. Open the app in your browser at http://localhost:3000
-### Run tests
-
-To run tests, run the following command:
-rspec
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
